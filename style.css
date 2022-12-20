@@ -1,28 +1,62 @@
 body{
-    text-align:center;
-    padding:20px;
-    
-}
-.result{
-    color:brown;
-    margin-top:80px;
-}
-button{
-    padding:10px;
     justify-content: center;
-    margin-left: 10px;
-    width:100px;
-    background-color:blanchedalmond;
-    margin-top:50px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
     
-    
-}
-#num1,#num2{
     padding:10px;
-    margin-right: 10px;
-    background-color: blanchedalmond;
+    
 }
-#head{
-    color: brown;
-    margin-bottom: 50px;
+.we{
+    width:300px;
+    text-align:center;
+    box-shadow:1px 8px 20px black;
+    border-radius:25px;
+    padding:5px;
+    background-image: url("https://img.freepik.com/free-vector/gorgeous-clouds-background-with-blue-sky-design_1017-25501.jpg");
+    color:white;
+    margin:auto;
+    margin-top: 25px;
+    height:450px;
+    font-family:cursive;
+}
+.one{
+    background-color: #fff;
+    border:none;
+    border-radius:25px;
+    box-shadow:1px 1px 2px black;
+    font-family: inherit;
+    font-size:1rem;
+    padding:1rem;
+    width: 250px;
+    font-family:cursive;
+    
+}
+.two,button{
+    margin-top:10px;
+    padding:10px;
+    border-radius: 10px;
+    font-family:cursive;
+}
+h1{
+    color:rgb(5, 7, 8);
+}
+h2,h3{
+    font-family:cursive;
+    color:rgb(0, 0, 0);
+    
+}
+@media screen and (max-width:768px){
+    .we{
+        font-size: 1rem;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width:300px;
+        
+    }
+    .one{
+        width:150px;
+        
+    }
+    
 }
