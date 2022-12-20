@@ -1,5 +1,5 @@
 # All-time-weather-app
-A weather app made using HTML,CSS<Javascript and Open weather API to get the weather information of a particular location.
+A weather app made using HTML,CSS,Javascript and Open weather API to get the weather information of a particular location.
 </br>
 # Find the weather here
 </br>
