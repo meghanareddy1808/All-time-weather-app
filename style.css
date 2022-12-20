@@ -1,0 +1,28 @@
+body{
+    text-align:center;
+    padding:20px;
+    
+}
+.result{
+    color:brown;
+    margin-top:80px;
+}
+button{
+    padding:10px;
+    justify-content: center;
+    margin-left: 10px;
+    width:100px;
+    background-color:blanchedalmond;
+    margin-top:50px;
+    
+    
+}
+#num1,#num2{
+    padding:10px;
+    margin-right: 10px;
+    background-color: blanchedalmond;
+}
+#head{
+    color: brown;
+    margin-bottom: 50px;
+}
